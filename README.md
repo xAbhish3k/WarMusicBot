@@ -1,7 +1,7 @@
-## WAR MUSIC / VIDEO PLAYER 
+##  MUSIC / VIDEO PLAYER 
 
 ### Bot 
-* Bot Link:  <a href="http://t.me/TheWarBotZ/60" alt=" warbotz "> <img src="https://img.shields.io/badge/%F0%9F%A4%96%20-Thewarbotz-blue" /> </a>
+* Bot Link:  <a href="http://t.me/vc_by_devs_bot" alt="our vc bot  "> <img src="https://img.shields.io/badge/%F0%9F%A4%96%20-Thewarbotz-blue" /> </a>
 
 ## 🧪 Get `SESSION_NAME` from below:
 
