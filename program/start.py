@@ -71,7 +71,7 @@ async def start_(client: Client, message: Message):
                 [InlineKeyboardButton("❓ Basic Guide", callback_data="cbhowtouse")],
                 [
                     InlineKeyboardButton("📚 Commands", callback_data="cbcmds"),
-                    InlineKeyboardButton("🇮🇳 Owner", url=f"https://t.me/xAbhish3k"),
+                    InlineKeyboardButton("🇮🇳 Owner", url=f"https://t.me/ITS_NOT_ROMEO"),
                 ],
                 [
                     InlineKeyboardButton(
@@ -83,7 +83,7 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "Help", url="https://t.me/warbotzsupport"
+                        "Help", url="https://t.me/team_silent_king"
                     )
                 ],
             ]
@@ -147,7 +147,7 @@ async def new_chat(c: Client, m: Message):
     for member in m.new_chat_members:
         if member.id == bot_id:
             return await m.reply(
-                "❤️ **Thanks for adding me to the Group ! join @Thewarbotz**\n\n"
+                "❤️ **Thanks for adding me to the Group ! join @team_silent_king FOR MORE BOTS ❤️ **\n\n"
                 "**Promote me as administrator of the Group, otherwise I will not be able to work properly, and don't forget to type /userbotjoin for invite the assistant.**\n\n"
                 "**Once done, type** /reload ",
                 reply_markup=InlineKeyboardMarkup(
