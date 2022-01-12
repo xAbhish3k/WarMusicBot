@@ -1,4 +1,4 @@
-# Copyright (C) 2021 By VeezMusicProject
+
 
 from driver.queues import QUEUE
 from pyrogram import Client, filters
