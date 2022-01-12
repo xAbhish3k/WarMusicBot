@@ -1,4 +1,4 @@
-
+# Copyright (C) 2021 By VeezMusicProject
 
 from driver.queues import QUEUE
 from pyrogram import Client, filters
@@ -33,19 +33,19 @@ async def cbstart(_, query: CallbackQuery):
                 [InlineKeyboardButton("❓ Basic Guide", callback_data="cbhowtouse")],
                 [
                     InlineKeyboardButton("📚 Commands", callback_data="cbcmds"),
-                    InlineKeyboardButton("❤ Owner", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("❤ Donate", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
                         "👥 Official Group", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "📣 Official Channel", url=f"https://t.me/TheWarBotZ"
+                        "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "Help", url="https://t.me/xAbhish3k"
+                        "🌐 Source Code", url="https://github.com/levina-lab/video-stream"
                     )
                 ],
             ]
@@ -105,8 +105,7 @@ async def cbbasic(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""🏮 here is the basic commands:
 
-» /mplay (song name/link) - play music on video chat
-» /stream (query/link) - stream the yt live/radio live music
+» /play (song name/link) - play music on video chat
 » /vplay (video name/link) - play video on video chat
 » /vstream - play live video from yt live/m3u8
 » /playlist - show you the playlist
