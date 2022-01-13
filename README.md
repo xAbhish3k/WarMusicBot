@@ -77,7 +77,7 @@ python3 main.py # run the bot.
 ```
 
 # Credits 💖
-> veez All Devs 
+> Veez All Devs 
 
 ## Support & Updates 📢
 <a href="https://t.me/WarbotzSupport"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/TheWarBotZ"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
